@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
 
-    // Quiz questions for each subject
+    
     const quizzes = {
         'history-quiz': [
             {
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ]
     };
 
-    // Determine which quiz to load based on the body ID
+    
     const bodyId = document.body.id;
     const currentQuiz = quizzes[bodyId];
 
